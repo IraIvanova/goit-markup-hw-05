@@ -1,0 +1,93 @@
+:root {
+  --color-primary: #4d5ae5;
+  --color-primary-pressed: #404bbf;
+  --color-dark: #2e2f42;
+  --color-dark-with-low-opacity: #2e2f4266;
+  --color-success: #31d0aa;
+  --color-accent: #e7e9fc;
+  --color-light: #f4f4fd;
+  --color-white: #ffffff;
+  --color-modal-white: #fcfcfc;
+  --color-text-normal: #434455;
+  --color-text-subtle: #8e8f99;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--color-text-normal);
+  background-color: var(--color-white);
+  letter-spacing: 0.02em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section {
+  padding: 120px 0;
+}
+
+.sr-only {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  margin: -1px;
+}
+
+.title {
+  color: var(--color-dark);
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  font-weight: 700;
+}
+
+button {
+  cursor: pointer;
+}
+
+.logo {
+  color: var(--color-dark);
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  line-height: 1.33;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.logo .logo-accent {
+  color: var(--color-primary);
+}
